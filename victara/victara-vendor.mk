@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/motorola/victara/proprietary/vendor/bin/radish:$(TARGET_COPY_OUT_VENDOR)/bin/radish \
     vendor/motorola/victara/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
+    vendor/motorola/victara/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/motorola/victara/proprietary/etc/gps.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps.conf \
     vendor/motorola/victara/proprietary/etc/izat.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/izat.conf \
     vendor/motorola/victara/proprietary/etc/quipc.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/quipc.conf \
@@ -99,9 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/firmware/aonvr1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aonvr1.bin \
     vendor/motorola/victara/proprietary/vendor/firmware/aonvr2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aonvr2.bin \
     vendor/motorola/victara/proprietary/vendor/firmware/atmel-a432-14102902-0103aa-victara.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/atmel-a432-14102902-0103aa-victara.tdat \
-    vendor/motorola/victara/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/motorola/victara/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/motorola/victara/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
     vendor/motorola/victara/proprietary/vendor/firmware/cy8c20247_24lkxi.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/cy8c20247_24lkxi.hex \
     vendor/motorola/victara/proprietary/vendor/firmware/left.tfa9890.config:$(TARGET_COPY_OUT_VENDOR)/firmware/left.tfa9890.config \
     vendor/motorola/victara/proprietary/vendor/firmware/left.tfa9890.eq:$(TARGET_COPY_OUT_VENDOR)/firmware/left.tfa9890.eq \
